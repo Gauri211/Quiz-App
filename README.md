@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# 🚀 QuizVerse - Interactive Quiz Platform  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+QuizVerse is an **interactive quiz platform** that allows users to test their knowledge, get instant feedback, track their progress, and view attempt history.   
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **🌟 Features**  
 
-### `npm start`
+### **📝 Quiz Features**
+✅ **Multiple-choice & Numeric Questions** - Users can select answers or enter numeric values.  
+✅ **Instant Feedback** - Correct answers turn green, incorrect turn red.  
+✅ **30-Second Timer** - Each question has a countdown timer.   
+✅ **Save Numeric Questions** - Users must save an answer before proceeding. 
+✅ **Question Navigation Bar** - Displays question numbers with progress indicators for correct,incorrect and unattempted answers, ensuring easy tracking.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### **📊 Results & Analysis**
+✅ **Final Score Display** - Total score with correct and incorrect questions.
+✅ **Attempt History (IndexedDB)** - Stores past attempts locally for tracking progress.  
+✅ **Reattempt Quiz Button** - Users can reattempt the quiz anytime.   
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## **📌 Instructions to Run the App Locally**
+### **1️⃣ Clone the Repository**
+```sh
+git clone https://github.com/Gauri211/Quiz-App.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2️⃣ Install Dependencies
+```sh
+npm install
+```
 
-### `npm run build`
+3️⃣ Start the Development Server
+```sh
+npm start
+```
+This will start the app at http://localhost:3000/. 🎉
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📌 Project Structure
+```sh
+quizverse/
+│── public/
+│── src/
+│   ├── components/       # React components (Home, Quiz, Results)
+│   ├── data/             # Quiz Questions Data
+│   ├── utils/            # IndexedDB for attempt history
+│   ├── App.js            # Main app component
+│   ├── index.js          # Entry point
+│── package.json          # Project dependencies
+│── README.md             # Project Documentation
+```
+### 📌 Technologies Used  
+✅ **Frontend:** React.js, Pure CSS  
+✅ **State Management:** React Hooks (`useState`, `useEffect`, `useRef`)  
+✅ **Local Storage:** IndexedDB (via `idb` package)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 📌 Live Demo
+✅ **Click here to experience the application:** https://quizverseapp.netlify.app/
