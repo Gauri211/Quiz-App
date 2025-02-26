@@ -24,6 +24,7 @@ QuizVerse is an **interactive quiz platform** that allows users to test their kn
 ### **1️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/Gauri211/Quiz-App.git
+cd Quiz-App
 ```
 
 2️⃣ Install Dependencies
